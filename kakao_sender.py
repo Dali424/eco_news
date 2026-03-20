@@ -56,7 +56,6 @@ def _build_messages(news_data: dict, report_data: dict) -> list[str]:
                 if len(title) > 45:
                     title = title[:42] + "..."
                 lines.append(f"• {firm}{title}")
-                lines.append(f"  🔗 {r['link']}")
 
         if idx == len(config.STOCKS):
             lines.append("\n⚡ 투자는 본인 판단하에 신중하게!")

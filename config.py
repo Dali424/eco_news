@@ -39,11 +39,11 @@ STOCKS = [
         "ticker": "TSLA",
     },
     {
-        "name": "PLUS 고배당",
-        "icon": "💰",
-        "keywords_ko": ["PLUS 고배당", "한국 고배당 ETF", "KODEX 고배당"],
-        "keywords_en": "Korea high dividend ETF",
-        "ticker": "PLUS고배당",
+        "name": "삼성전자",
+        "icon": "📱",
+        "keywords_ko": ["삼성전자", "삼성전자 주가"],
+        "keywords_en": "Samsung Electronics stock",
+        "ticker": "005930",
     },
     {
         "name": "금",
